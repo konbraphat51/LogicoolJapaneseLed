@@ -1,9 +1,16 @@
+using LedCSharp;
+
 namespace LogicoolJapaneseLed.LedControl
 {
     internal abstract class LedController
     {
         protected bool isJapanese = false;
         protected bool hasContext = false;
+
+        public LedController()
+        {
+            LogitechGSDK.LogiLedInit();
+        }
 
         /// <summary>
         /// Called every frame
