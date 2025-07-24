@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
@@ -9,12 +8,10 @@
     <SelfContained>true</SelfContained>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
-
   <ItemGroup>
     <Reference Include="LogitechLedEnginesWrapper">
       <HintPath>libs\LogitechLedEnginesWrapper.dll</HintPath>
       <Private>true</Private>
     </Reference>
   </ItemGroup>
-  
 </Project>
