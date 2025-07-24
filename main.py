@@ -1,6 +1,9 @@
-def main():
-    print("Hello from logicooljapaneseled!")
+from logiled import LogitechLed, load_dll
 
+load_dll()
 
-if __name__ == "__main__":
-    main()
+led = LogitechLed()
+
+led.set_lighting(100, 0, 0)
+input("Press enter to shutdown SDK...")
+led.shutdown()
