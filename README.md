@@ -4,4 +4,6 @@
 
 ## License
 
-For `LogicoolJapaneseLed\libs\LogitechLedEnginesWrapper.dll`, see [LogicoolLicense.pdf](LogicoolLicense.pdf), which is a part of the Logitech Gaming LED SDK documentation.
+For `LogicoolJapaneseLed\libs\LogitechLedEnginesWrapper.dll` and `LogicoolJapaneseLed\include\LogitechGSDK.cs`, see [LogicoolLicense.pdf](LogicoolLicense.pdf), which is a part of the Logitech Gaming LED SDK documentation.
+
+For others, see [LICENSE](LICENSE) (Just a MIT license).
