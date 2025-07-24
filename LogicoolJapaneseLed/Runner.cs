@@ -2,7 +2,7 @@
 
 namespace LogicoolJapaneseLed
 {
-    internal class Program
+    internal class Runner
     {
         private static void Main(string[] args)
         {
