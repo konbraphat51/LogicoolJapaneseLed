@@ -1,4 +1,4 @@
-namespace LogicoolJapaneseLed
+namespace LogicoolJapaneseLed.LedControl
 {
     internal abstract class LedController
     {
