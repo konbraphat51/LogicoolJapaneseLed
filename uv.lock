@@ -1,0 +1,23 @@
+version = 1
+revision = 2
+requires-python = ">=3.10"
+
+[[package]]
+name = "logicooljapaneseled"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "logiled" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "logiled", specifier = ">=2023.11.12.1" }]
+
+[[package]]
+name = "logiled"
+version = "2023.11.12.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e7/0f/05052572f5968b670319275150ae377a2883a111d5cded16b1ea6d960733/logiled-2023.11.12.1.tar.gz", hash = "sha256:c2390431855e3b99ba0ef8d8d15da61960c771c3c9e36883ad2067d5542ac394", size = 17890, upload-time = "2023-11-14T23:46:22.981Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/4d/f0/815ffa457699cc3ad48fc871468b3ee6a5b5e3ae92736dcaa26f92c03e10/logiled-2023.11.12.1-py3-none-any.whl", hash = "sha256:1cefd05cd89611b3da8ee00aa9248bfece652661824cf934f0f48d3409c43605", size = 17107, upload-time = "2023-11-14T23:46:21.672Z" },
+]
